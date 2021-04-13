@@ -3,7 +3,7 @@ import { OUTPUT_CHANGED, INPUT_CHANGED, ERROR_CHANGED } from "./events";
 
 export class CalcModel extends EventEmitter {
   output: string = "";
-  input: string = "(1+(2+1))*3";
+  input: string = "";
   error: string = "";
 
   constructor() {

@@ -3,10 +3,10 @@ import { getAction } from "./operations";
 export function calc(value: string) {
   let str = value;
 
-  if (str.match(/\((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*\)/)) {
-    const group = str.match(/\((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*\)/);
-    console.log(group);
-  }
+  // if (str.match(/\((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*\)/)) {
+  //   const group = str.match(/\((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*\)/);
+  //   console.log(group);
+  // }
 
   const open_bracket = str.indexOf("(");
   if (open_bracket > -1) {
